@@ -4,6 +4,9 @@ var Q = require('q');
 
 var SpotifyManager = function() {};
 
+
+// TODO make the request to spotify works
+// @see : https://developer.spotify.com/web-api/endpoint-reference/
 SpotifyManager.prototype.getRelatedSongs = function (artist, limit) {
 
   var resDefer = Q.defer();

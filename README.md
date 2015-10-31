@@ -28,3 +28,6 @@ The project using the hapi framework
   ```bash 
     npm test
   ```
+
+## Documentation
+  The list of routes is available at `/docs`.
