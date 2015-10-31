@@ -5,7 +5,6 @@ var UserRepository = function() {
 
 UserRepository.prototype.persist = function(user) {
   this.users[user.getId()] = user;
-  console.log(this.users);
 };
 
 UserRepository.prototype.findById = function(id) {

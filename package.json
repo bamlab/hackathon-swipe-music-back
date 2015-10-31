@@ -5,7 +5,9 @@
     "boom": "*",
     "hapi": "*",
     "hapi-auth-basic": "^3.0.0",
+    "https": "^1.0.0",
     "joi": "*",
+    "q": "^1.4.1",
     "underscore": "*"
   },
   "devDependencies": {
