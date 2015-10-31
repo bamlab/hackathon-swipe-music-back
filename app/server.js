@@ -5,6 +5,10 @@ var vision = require('vision');
 var inert = require('inert');
 var lout = require('lout');
 
+// routers
+var userRouter = require('./user.router');
+var songRouter = require('./song.router');
+
 
 var server = new Hapi.Server();
 server.connection({ port: 3000 });
@@ -20,6 +24,8 @@ server.route({
 });
 
 
+userRouter(server);
+songRouter(server);
 
 module.exports = server;
 

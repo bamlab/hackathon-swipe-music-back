@@ -2,9 +2,10 @@
   "name": "package",
   "version": "0.0.0",
   "dependencies": {
-    "hapi": "*",
-    "joi": "*",
     "boom": "*",
+    "hapi": "*",
+    "hapi-auth-basic": "^3.0.0",
+    "joi": "*",
     "underscore": "*"
   },
   "devDependencies": {
